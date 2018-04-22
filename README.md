@@ -1,6 +1,6 @@
 # Web Application Name: Audio Analysing System
 
-
+The Applcatio is designed to analyze the time-domain and frequency domain information and compare the features of two audio file, based on Express Module, using html/JavaScript/Node.js for development.
 
 ## Group Members:
 
@@ -27,13 +27,11 @@
 
 ## Screenshots of Site
 
-**[Add a screenshot of each key page (maximum 4)](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository)
-along with a very brief caption:**
-## Main Page
+### Main Page
 ![Alt text](https://github.com/umn-5117-f17/module-1-group-assignment-great-firewall/blob/master/files/screenShot1.jpg)
-## Basic Result Page
+### Basic Result Page
 ![Alt text](https://github.com/umn-5117-f17/module-1-group-assignment-great-firewall/blob/master/files/screenShot2.png)
-## Complete Results
+### Complete Results
 ![Alt text](https://github.com/umn-5117-f17/module-1-group-assignment-great-firewall/blob/master/files/screenShot3.png)
 
 
@@ -60,8 +58,7 @@ The flatness of a given frequency domain data, represented by the ratio between 
 ## External Dependencies
 
 
-**Document integrations with 3rd Party code or services here.
-**
+
 Library or service name: description of use
 * 
 * Web-audio-API: decode raw mp3 files into pulse code modulation data(pcm data).
