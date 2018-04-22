@@ -1,23 +1,12 @@
-# Module 1 Group Assignment: The Describerator
-
-CSCI 5117, Fall 2017
-
-[Assignment description](https://docs.google.com/document/d/1956Z3EZJi9RWU6JqPHEh5ZZBmDOKFex-HtsBLz66tt4/edit#)
-
-Please fill out all of the following sections to help us grade your submission:
+# Web Application Name: Audio Analysing System
 
 
-## Name of App: Audio Analysing System
 
+## Group Members:
 
-## Name of Team: Great Firewall
-
-
-## Students
-
+* Yu Cui, cuixx322@umn.edu
 * Anthony Zhang, zhan4490@umn.edu
 * Tian Nan, nanxx026@umn.edu
-* Yu Cui, cuixx322@umn.edu
 * Raphael(Chuxuan) Ma, maxx0208@umn.edu
 
 
@@ -28,8 +17,7 @@ Please fill out all of the following sections to help us grade your submission:
 
 ## Key Features
 
-**Describe the most challenging features you implemented
-(one sentence per bullet, maximum 4 bullets):**
+**System Features:**
 
 * Analysing the time-domain and frequency domain information for two difference audio file
 * Using AJAX to upload the files
@@ -73,16 +61,14 @@ The flatness of a given frequency domain data, represented by the ratio between 
 
 
 **Document integrations with 3rd Party code or services here.
-Please do not document required libraries (e.g., Express, Bulma).**
+**
 Library or service name: description of use
 * 
 * Web-audio-API: decode raw mp3 files into pulse code modulation data(pcm data).
 * fft-js/ndarray-fft: performs fast fourier transformation
 * fs: read/write files
 
-**If there's anything else you would like to disclose about how your project
-relied on external code, expertise, or anything else, please disclose that
-here:**
+
 
 ***
 
