@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+
+<body id = 'bg3'>
+
+  <div>
+    <h1 id="result_h" style="float: right; margin-right:150px">Analysis result </h1>
+    <div>
+      <div id = "table1" class="resultFont" style="float: right">
+        <table id = "table_1" style="margin-left:300px; color: #FFFFFF">
+          <tr>
+            <th>number of channels:</th>
+            <th>{{channel_1}}</th>
+            <th>{{channel_2}}</th>
+          </tr>
+          <tr>
+            <th>sample rate:</th>
+            <th>{{rate_1}} HZ</th>
+            <th>{{rate_2}} HZ</th>
+          </tr>
+          <tr>
+            <th>duration:</th>
+            <th>{{dur_1}} seconds</th>
+            <th>{{dur_2}} seconds</th>
+          </tr>
+        </table>
+      </div>
+      <div id="spinner" style="width:400px; margin-left:600px"></div>
+
+      <form method="post" enctype="multipart/form-data" action="/result" id = "dynamic_result">
+        <input type="submit" value="More details" id="button4" class = "midd_result">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

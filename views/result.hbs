@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+
+<body id="bg3">
+  <div>
+    <h1 id="result_h" style="float: right; margin-right:150px">Analysis result </h1>
+    <div>
+      <div id = "table1" style="float: right">
+        <table id = "table_1" style="margin-left:300px; color: #FFFFFF" class="resultFont">
+          <tr>
+            <th>number of channels:</th>
+            <th>{{channel_1}}</th>
+            <th>{{channel_2}}</th>
+          </tr>
+          <tr>
+            <th>sample rate:</th>
+            <th>{{rate_1}} HZ</th>
+            <th>{{rate_2}} HZ</th>
+          </tr>
+          <tr>
+            <th>duration:</th>
+            <th>{{dur_1}} seconds</th>
+            <th>{{dur_2}} seconds</th>
+          </tr>
+          <tr>
+            <th> relative volume:</th>
+            <th>{{vol_1}}%</th>
+            <th>{{vol_2}}%</th>
+          </tr>
+          <tr>
+            <th colspan="3">Match percentage of the two audio is {{test_msg}}%</th>
+          </tr>
+        </table>
+      </div>
+      <!-- <div style="margin-bottom:10px; color: #FFFFFF; float: right"><h3 style="font-size:40px">Match percentage of two audio is {{test_msg}}%</h3></div> -->
+      <table style="margin-bottom:20px; margin-top:70px">
+        <tr>
+          <th><div id="chartContainer" style="width:250px; margin-left:30px; height:250px"></div></th>
+          <th><div id="chartContainer1" style="width:250px; margin-left:30px; height:250px"></div></th>
+          <th><div id="chartContainer2" style="width:250px; margin-left:30px; height:250px"></div></th>
+          <th><div id="chartContainer3" style="width:250px; margin-left:30px; height:250px"></div></th>
+          <th><div id="chartContainer4" style="width:250px; margin-left:30px; height:250px"></div></th>
+        </tr>
+      </table>
+      <div><p style="color:#FFFFFF; margin-bottom:5px; margin-top:0px; float: right">NOTE: If you have question with the features shown above, pls click <a href="https://github.com/umn-5117-f17/module-1-group-assignment-great-firewall/blob/master/README.md">here</a></p></div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <title>Audio Analysis System</title> -->
+
+</head>
+<body>
+  <div>
+    <div id="bg2" class="bg">
+      <div class="background-media" backgroundsize="true">
+        <video autoplay="autoplay" muted="muted" volume="0" poster="http://static.qifeiye.com/caches/2d2bd038d43e773a454cbb4ae76768fb/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDMvZGQ4ZmRhYzcyOTA0ZTBlZmJjYzRlNzM4ZmJiYTMyOWEuanBn.jpg" loop="loop" style="width: 100%; height: 100%;object-fit:cover;object-position:center center;position:fixed" class="section-background-video">
+          <source type="video/webm" src="http://static.qifeiye.com/caches/2d2bd038d43e773a454cbb4ae76768fb/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDMvMTIzNC53ZWJt.webm">
+            <source type="video/mp4" src="http://static.qifeiye.com/caches/2d2bd038d43e773a454cbb4ae76768fb/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDMvYXBwbGVfc2luZ19jaGlsZC5tcDQ_p_p100_p_3D.mp4">
+            </video>
+          </div>
+          <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: rgba(48,38,38,0.7);"></div>
+        </div>
+        <div>
+
+          <div class="container" style="margin-top:0em">
+            <div class="row">
+              <div class="col">
+                <div class="midd">
+                  <h1 id="midd_h">Analyze your music!</h1>
+                  <p id="midd_p">This is an audio-analyser system. In this web application, you can upload two .mp3 audio files. Then system will compare these two files and deliever some descriptive statistics. </p>
+                  <br>
+                  <div id="midd_d">
+
+                    <form method="post" enctype="multipart/form-data" id = "uploadFile1">
+                      <!-- <label for="thefile1" class="midd_btn0">Select mp3</label> -->
+                      <!-- <label for="thefile1" class="custom-file-upload"> -->
+                          <!-- <input type = 'file' name = 'thefile1' accept = "audio/*" id = 'thefile1'> -->
+                          <!-- </label> -->
+                            <!-- <input name = 'thefile1' accept = "audio/*" id="file-upload" type="file"/> -->
+                            <input type="file" name="thefile1" accept="audio/*" id="thefile1">
+                      <!-- style="visibility:hidden; -->
+                      <input type="button" value="Submit first one" id="Req_ajax1" class="midd_btn">
+                    </form>
+                    <div id ="status1" style="display: none"></div>
+                    <div id="ajaxResponse"></div>
+                    <br>
+                    <form method="post" enctype="multipart/form-data" id = "uploadFile2">
+                      <input type="file" name="thefile2" accept="audio/*" id="thefile2">
+                      <input type="button" value="Submit second one" id="Req_ajax2" class="midd_btn">
+                    </form>
+                    <div id ="status2" style="display: none"></div>
+                    <div id="ajaxResponse"></div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="testdiv">
+                    <form method="post" enctype="multipart/form-data" action="/half_result" id = "beginRating">
+                      <input type="submit" value="Begin Analyzing" id="button3" class="midd_btn1">
+                    </form>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="preview"></div>
+
+      </body>
+      </html>
