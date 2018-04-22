@@ -1,6 +1,6 @@
 # Web Application Name: Audio Analysing System
 
-The Applcatio is designed to analyze the time-domain and frequency domain information and compare the features of two audio file, based on Express Module, using html/JavaScript/Node.js for development.
+The Applcation is designed to analyze the time-domain and frequency domain information and compare the features of two audio file, based on Express Module, using html/JavaScript/Node.js for development.
 
 ## Group Members:
 
@@ -58,9 +58,6 @@ The flatness of a given frequency domain data, represented by the ratio between 
 ## External Dependencies
 
 
-
-Library or service name: description of use
-* 
 * Web-audio-API: decode raw mp3 files into pulse code modulation data(pcm data).
 * fft-js/ndarray-fft: performs fast fourier transformation
 * fs: read/write files
